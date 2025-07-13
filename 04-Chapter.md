@@ -332,7 +332,7 @@ Mileo breathes it in—the sweat and smoke and cooking oil and humanity. The mat
 
 ---
 
-[Reflection][Dialogue]
+[Reflection][Discovery]
 
 The resistance command center operates at 127% normal activity parameters. Riv and Elias engage with processing terminals, attempting to decrypt the extracted data package. Sierra maintains tactical position at central monitoring station, divided attention addressing multiple security protocols simultaneously. Mileo sits apart, neural stabilization equipment attached to his extraction points. Blood stains his clothing, drying to rust-brown where it meets the air.
 

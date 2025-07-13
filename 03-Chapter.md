@@ -134,7 +134,7 @@ Sierra hesitates. Kora's intuition—her *Cascade sensitivity*—has saved them 
 
 ---
 
-[Reflection][Dialogue]
+[Reflection][Discovery]
 
 The council convenes in what used to be a subway control office—now it smells like burnt synth-coffee, gun oil, and the sour tang of fear-sweat that no amount of recycled air can mask. Sierra stands at the head of the table, a stolen NeuroSys terminal casting blue light across the lattice of scars on her face. Mileo sits opposite, the neural dampener at his temple pulsing with the soft indigo light of quantum stabilization. His eyes have cleared, but the tremors in his hands persist—withdrawal fighting hardware.
 
@@ -272,7 +272,7 @@ Sierra's hand finds her weapon, almost unconsciously, the gesture as natural as 
 
 ---
 
-[Action][Dialogue]
+[Action][Confrontation]
 
 The experimental lab is a nightmare of sound and smell. Mileo thrashes against reinforced restraints, the diagnostic table's metal frame screaming against concrete with each convulsion. Sweat evaporates off his overheating skin, filling the chamber with the sharp ammonia of fear. Dr. Chen hunches over the interface, his fingers bloody where he's bitten his nails to the quick. Cables snake from Mileo's arm, from the scars, into machines jury-rigged from pre-collapse tech—connection points sparking and hissing.
 
