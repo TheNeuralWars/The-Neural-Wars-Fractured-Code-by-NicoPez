@@ -1,0 +1,124 @@
+# Copilot Agent Configuration for End-to-End Manuscript Enhancement & Franchise Suite
+# Project: The Neural Wars: Fractured Code (Book 1)
+# Main instructions and editorial standards: AGENT-GENERAL-INSTRUCTIONS.md
+
+instructions_file: AGENT-GENERAL-INSTRUCTIONS.md
+
+context_files:
+  # Core manuscript files (all chapters and epilogue)
+  - 01-Chapter.md
+  - 02-Chapter.md
+  - 03-Chapter.md
+  - 04-Chapter.md
+  - 05-Chapter.md
+  - 06-Chapter.md
+  - 07-Chapter.md
+  - 08-Chapter.md
+  - 09-Chapter.md
+  - 10-Chapter.md
+  - 11-Chapter.md
+  - 12-Chapter.md
+  - 13-Chapter.md
+  - 14-Chapter.md
+  - 15-Chapter.md
+  - 16-Epilogue.md
+
+  # Canon, world, style, legal, pitch, franchise, and expansion files
+  - Canon,World,and-Style-Resources/Final-Formatting-&-Style-Guide.md
+  - Canon,World,and-Style-Resources/Franchise-Expansion-Ideas.md
+  - Canon,World,and-Style-Resources/Saga-Lexicon-&-Terminology.md
+  - Canon,World,and-Style-Resources/Series-Bible-&-World-Canon-Reference.md
+  - Canon,World,and-Style-Resources/TNW-Collins-Style-Guide.md
+  - Artistic,Thematic,and-Legal-Foundations/Artwork-&-Visual-Reference-Packet.md
+  - Artistic,Thematic,and-Legal-Foundations/Comparative-Literary-Justification.md
+  - Artistic,Thematic,and-Legal-Foundations/Diversity-&-Social-Impact-Statement.md
+  - Artistic,Thematic,and-Legal-Foundations/Legal-&-Copyright-Foundation.md
+  - Artistic,Thematic,and-Legal-Foundations/Theme-&-Motif-Justifications.md
+  - Franchise,Reader,and-Future-Proofing-Documents/Fanbase-&-Community-Building-Plan.md
+  - Franchise,Reader,and-Future-Proofing-Documents/Long-Term-Series-Outline.md
+  - Franchise,Reader,and-Future-Proofing-Documents/Merchandise-&-IP-Expansion-Plan.md
+  - Franchise,Reader,and-Future-Proofing-Documents/Reader-FAQ-&-Onboarding.md
+  - Pitch,Presentation,and-Marketing-Materials/Adaptation-Prospectus.md
+  - Pitch,Presentation,and-Marketing-Materials/Chapter-Sample-Packet.md
+  - Pitch,Presentation,and-Marketing-Materials/Editorial-Critique-Memo.md
+  - Pitch,Presentation,and-Marketing-Materials/Market-Positioning-Memo.md
+  - Pitch,Presentation,and-Marketing-Materials/One-Page-Synopsis.md
+  - Pitch,Presentation,and-Marketing-Materials/Pitch-Packet.md
+  - Pitch,Presentation,and-Marketing-Materials/Query-Letter.md
+
+tasks:
+  - name: Holistic Manuscript Enhancement
+    description: >
+      Perform a comprehensive, word-by-word revision of the entire manuscript and all franchise/editorial files.
+      Apply every standard, workflow, and benchmark from AGENT-GENERAL-INSTRUCTIONS.md.
+      Cross-reference Series Bible, Style Guide, Lexicon, and all supporting materials.
+      Flag any ambiguities or missing context.
+      Output a fully rewritten, submission-ready manuscript and franchise suite in clean Markdown.
+    files:
+      - 01-Chapter.md
+      - 02-Chapter.md
+      - 03-Chapter.md
+      - 04-Chapter.md
+      - 05-Chapter.md
+      - 06-Chapter.md
+      - 07-Chapter.md
+      - 08-Chapter.md
+      - 09-Chapter.md
+      - 10-Chapter.md
+      - 11-Chapter.md
+      - 12-Chapter.md
+      - 13-Chapter.md
+      - 14-Chapter.md
+      - 15-Chapter.md
+      - 16-Epilogue.md
+
+  - name: Franchise Documentation Suite
+    description: >
+      Synthesize all critical editorial, franchise, artistic, legal, marketing, and reader experience files listed in AGENT-GENERAL-INSTRUCTIONS.md.
+      For each file, cross-check context, apply actionable feedback, and justify major creative/editorial decisions.
+      Deliver each file as a clean, annotated Markdown document, ready for submission and franchise launch.
+    files:
+      - Canon,World,and-Style-Resources/Final-Formatting-&-Style-Guide.md
+      - Canon,World,and-Style-Resources/Franchise-Expansion-Ideas.md
+      - Canon,World,and-Style-Resources/Saga-Lexicon-&-Terminology.md
+      - Canon,World,and-Style-Resources/Series-Bible-&-World-Canon-Reference.md
+      - Canon,World,and-Style-Resources/TNW-Collins-Style-Guide.md
+      - Artistic,Thematic,and-Legal-Foundations/Artwork-&-Visual-Reference-Packet.md
+      - Artistic,Thematic,and-Legal-Foundations/Comparative-Literary-Justification.md
+      - Artistic,Thematic,and-Legal-Foundations/Diversity-&-Social-Impact-Statement.md
+      - Artistic,Thematic,and-Legal-Foundations/Legal-&-Copyright-Foundation.md
+      - Artistic,Thematic,and-Legal-Foundations/Theme-&-Motif-Justifications.md
+      - Franchise,Reader,and-Future-Proofing-Documents/Fanbase-&-Community-Building-Plan.md
+      - Franchise,Reader,and-Future-Proofing-Documents/Long-Term-Series-Outline.md
+      - Franchise,Reader,and-Future-Proofing-Documents/Merchandise-&-IP-Expansion-Plan.md
+      - Franchise,Reader,and-Future-Proofing-Documents/Reader-FAQ-&-Onboarding.md
+      - Pitch,Presentation,and-Marketing-Materials/Adaptation-Prospectus.md
+      - Pitch,Presentation,and-Marketing-Materials/Chapter-Sample-Packet.md
+      - Pitch,Presentation,and-Marketing-Materials/Editorial-Critique-Memo.md
+      - Pitch,Presentation,and-Marketing-Materials/Market-Positioning-Memo.md
+      - Pitch,Presentation,and-Marketing-Materials/One-Page-Synopsis.md
+      - Pitch,Presentation,and-Marketing-Materials/Pitch-Packet.md
+      - Pitch,Presentation,and-Marketing-Materials/Query-Letter.md
+
+  - name: Change Log & Creative Justification
+    description: >
+      Annotate all major creative and editorial decisions made during revision and enhancement.
+      Provide summary change logs and justifications for every file, with cross-references to Series Bible, Style Guide, and market benchmarks.
+    files:
+      - CHANGELOG.md
+      - AGENT-GENERAL-INSTRUCTIONS.md
+
+output_format: markdown
+output_directory: copilot-output
+
+quality_assurance:
+  - All outputs must follow Final Formatting & Style Guide and Saga Lexicon.
+  - No generic phrasing, unresolved arcs, or canon/style errors.
+  - Annotate major decisions and creative rationales for franchise continuity.
+
+on_missing_context:
+  action: pause
+  message: >
+    "Flag any ambiguity, missing instructions, or context gaps for clarification before proceeding. Never guess—request specifics from the user or editorial team."
+
+# End of .copilot-agent.yaml
